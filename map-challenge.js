@@ -6,7 +6,6 @@ var input = [
 
 var pythagorean = function(obj){
    ans = Math.sqrt(Math.pow(obj.x, 2) + Math.pow(obj.y, 2));
-   console.log(obj.x);
    return ans;
 }
 
